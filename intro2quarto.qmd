@@ -92,6 +92,8 @@ publishing system.
 ## Others
 
 [awesome-quarto](https://github.com/mcanouil/awesome-quarto)
+
+[slide deck source code](https://github.com/ellivromvvn/intro2quarto)
 :::
 
 # Thank you!
