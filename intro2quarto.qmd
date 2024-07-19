@@ -1,0 +1,96 @@
+---
+title: "Introduction to Quarto"
+subtitle: "DepEd-BHROD Brownbag Sessions on Data Analytics Using R"
+author: ORVILLE D. HOMBREBUENO
+date: July 19, 2024
+format:
+  revealjs:
+    mainfont: "Cormorant Garamond"
+editor: visual
+---
+
+## Hi!
+
+My name is Orville D. Hombrebueno. I am a Math teacher at the Nueva Vizcaya State University.
+
+![](images/orville2.jpg){fig-align="center" height="300"}
+
+<center>{{< fa brands square-x-twitter size=1.4xl >}} [odhombrebueno](https://x.com/odhombrebueno) \| {{< fa brands mastodon size=1.4xl >}} [mildorville](https://fosstodon.org/@mildorville) \| {{< fa brands github size=1.4xl >}} [ellivromvvn](https://github.com/ellivromvvn)</center>
+
+## What is Quarto?
+
+::: columns
+::: {.column width="40%"}
+[Quarto®](https://quarto.org/) is an
+
+::: {.fragment .semi-fade-out}
+open-source
+:::
+
+::: {.fragment .semi-fade-out}
+scientific and technical
+:::
+
+::: {.fragment .semi-fade-out}
+publishing system.
+:::
+:::
+
+::: {.column width="60%"}
+::: incremental
+-   Create documents in your favorite editor
+-   Create dynamic content with Python, R, Julia, and Observable
+-   Publish in HTML, PDF, MS Word, and more
+-   Share by publishing to Posit Connect, Confluence, or other publishing systems
+:::
+:::
+:::
+
+## What is Quarto?
+
+[![Artwork from "Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.](images/quarto1.png){fig-align="center" width="2919"}](https://allisonhorst.com/cetinkaya-rundel-lowndes-quarto-keynote)
+
+## What is Quarto?
+
+[![Artwork from "Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.](images/quarto2.png){width="2788"}](https://www.youtube.com/watch?v=p7Hxu4coDl8)
+
+## Why Quarto?
+
+::: incremental
+-   Multilingual and independent of computational systems
+-   Shared expression for core features
+-   Enable “single-source publishing” — create Word, PDFs, HTML, etc. from one source
+-   Reproducibility — document your process and make it easy to reproduce and replicate your work
+:::
+
+## Setting up Quarto
+
+::: incremental
+1.  Install [R](https://cloud.r-project.org/) and [RStudio](https://posit.co/download/rstudio-desktop/)
+2.  Install the latest version of [Quarto](https://quarto.org/docs/get-started/)
+3.  Install the `rmarkdown` package
+4.  Install TinyTeX in RStudio and the `tinytex` package in R
+5.  Create an account in [Quarto Pub](https://quartopub.com/)
+:::
+
+# Live Coding
+
+## Resources
+
+::: panel-tabset
+## YouTube
+
+1.  [Get started with Quarto](https://www.youtube.com/watch?v=_f3latmOhew&t=34s) \| Mine Çetinkaya-Rundel
+2.  [Hello, Quarto: A World of Possibilities (for Reproducible Publishing)](https://www.youtube.com/watch?v=Qrz2rUWM-uY&t=2591s)
+
+## Websites
+
+1.  [pipe dreams](https://ivelasq.rbind.io/) by Isabella Velásquez
+2.  [Jadey Ryan](https://jadeyryan.com/)
+
+## Others
+
+[awesome-quarto](https://github.com/mcanouil/awesome-quarto)
+:::
+
+# Thank you!

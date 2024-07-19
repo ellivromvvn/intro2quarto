@@ -1,0 +1,4 @@
+- source: intro2quarto.qmd
+  quarto-pub:
+    - id: 03388a94-0491-4a33-98c1-ed954f57b25e
+      url: 'https://mild-orville.quarto.pub/intro2quarto'
