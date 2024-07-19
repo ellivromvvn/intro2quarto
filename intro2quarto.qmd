@@ -6,6 +6,7 @@ date: July 19, 2024
 format:
   revealjs:
     mainfont: "Cormorant Garamond"
+    footer: "https://mild-orville.quarto.pub/intro2quarto/"
 editor: visual
 ---
 
