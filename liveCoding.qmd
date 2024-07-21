@@ -1,0 +1,53 @@
+---
+title: "Motor Trend Car Road Tests"
+author: Orville D. Hombrebueno
+format: revealjs
+editor: visual
+bibliography: references.bib
+---
+
+```{css}
+/*| echo: false */
+figcaption {
+  margin: auto;
+  text-align: center;
+}
+```
+
+## The Data
+
+```{r}
+#| label: libraries
+#| echo: false
+#| message: false
+
+library(tidyverse)
+library(gt)
+```
+
+The data was extracted from the 1974 *Motor Trend* US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models) [@henderson1981].
+
+@tbl-mtcars is the first 6 rows of the mtcars data set.
+
+```{r}
+#| label: tbl-mtcars
+#| tbl-cap: mtcars Data
+#| code-fold: true
+
+head(mtcars) |>
+  gt()
+```
+
+## Plot
+
+@fig-mtcars shows the plot of the `mtcars` data.
+
+```{r}
+#| label: fig-mtcars
+#| fig-cap: mtcars Plot
+#| echo: false
+
+plot(mtcars)
+```
+
+## Reference
