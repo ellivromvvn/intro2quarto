@@ -96,4 +96,4 @@ publishing system.
 [slide deck source code](https://github.com/ellivromvvn/intro2quarto)
 :::
 
-# Thank you!
+# Thanks!
